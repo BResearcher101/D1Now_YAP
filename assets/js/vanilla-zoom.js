@@ -45,7 +45,7 @@
                     zoomedImage.style.backgroundImage = 'url('+ imageSrc +')';
                 }
             });
-            
+
             // Zoom image on mouse enter.
             zoomedImage.addEventListener('mouseenter', function(e) {
                 this.style.backgroundSize = "250%"; 
