@@ -45,7 +45,7 @@
                     zoomedImage.style.backgroundImage = 'url('+ imageSrc +')';
                 }
             });
-            <a href="#" onclick="window.scrollTo(0, document.body.scrollHeight); return false;">Go to the End of the Page</a>
+
             // Zoom image on mouse enter.
             zoomedImage.addEventListener('mouseenter', function(e) {
                 this.style.backgroundSize = "250%"; 
