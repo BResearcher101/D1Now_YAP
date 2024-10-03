@@ -1,0 +1,18 @@
+<style>
+    @media (max-width: 768px) {
+        /* Adjust these styles for mobile screens */
+        .block-heading {
+            margin-left: 0;
+            margin-right: 0;
+            padding-bottom: 20px;
+        }
+
+        .block-heading p {
+            font-size: 18px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            width: 90%;
+        }
+    }
+</style>
